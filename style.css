@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0px 33px;
+    font-size: 27px;
+    color: white;
+    
+}
+.navbar ul li a:hover{
+    color: red;  
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar{
+    background-color: black;
+    padding: 14px;
+}
+/* SECTION */
+body {
+    background: url("/gym8.jpg");
+    color: white;
+}
+section{
+    /* border: 2px solid red; */
+    width: 30%;
+    margin: 14% 2px 2px 19%;
+}
+.title-text{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+.login{
+    cursor: pointer;
+    margin: 0px 14px;
+}
+.SignUp{
+    cursor: pointer;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+.form-login-input{
+    margin: 8px 0px;
+    padding: 8px 124px;
+    border-radius: 20px;
+    border: 1px solid red;
+}
+.form-login-submit{
+    width: 50%;
+    margin: auto;
+    padding: 6px;
+    border-radius: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+}
+.form-login-submit:hover{
+    background-color: red;
+    color: black;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.forgot-password{
+    margin: auto;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer{
+    /* border: 2px solid red; */
+    margin-top: 13%;
+    padding-left: 40%;
+    font-weight: bold;
+}
